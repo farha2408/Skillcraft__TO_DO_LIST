@@ -1,0 +1,31 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+}
+
+#task-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#task-list li {
+	background-color: #fff;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#task-list li:last-child {
+	border-bottom: none;
+}
+
+#task-list li.checked {
+	background-color: #888;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+#add-task{
+    background-color: green;
+    color: white;
+}
